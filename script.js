@@ -1,5 +1,7 @@
 var isDate = function (input) {
   //   write your code here
+	return !isNaN(new Date(input))
+	
 };
 
 // Do not change the code below.
